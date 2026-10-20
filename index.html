@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="넷플릭스에서는 모두가 같은 것만 볼까? 17,370건의 콘텐츠별 시청 시간 집계로 알아본 인기 콘텐츠 쏠림 현상. 개인별 기록이 아닌 Netflix 2026년 상반기 공식 데이터 분석.">
+  <title>넷플릭스에서는 모두가 같은 것만 볼까? | 데이터 리터러시</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/deck-data.js" defer></script>
+  <script src="assets/slides-content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="presentation" aria-label="넷플릭스에서는 모두가 같은 것만 볼까? 발표">
+    <div class="stage-wrap" id="stage-wrap"><div class="stage" id="stage">
+      <header class="masthead"><span class="wordmark">DATA<span> / </span>LITERACY</span><span>NETFLIX H1 2026 <i></i> 대학 데이터 리터러시 과제 · 비공식</span></header>
+      <div id="slides"></div>
+      <div class="stage-line" aria-hidden="true"></div>
+    </div></div>
+    <nav class="controls" aria-label="슬라이드 이동">
+      <span class="control-hint">← → 이동 <span>·</span> F 전체화면</span>
+      <div class="page-controls"><button id="prev" aria-label="이전 슬라이드">←</button><output id="counter" aria-live="polite">01 / 11</output><button id="next" aria-label="다음 슬라이드">→</button></div>
+      <button id="fullscreen" class="fullscreen" aria-label="전체화면 전환" aria-pressed="false">전체화면 ⛶</button>
+    </nav>
+    <div class="progress" role="progressbar" aria-label="발표 진행률" aria-valuemin="0" aria-valuemax="11" aria-valuenow="1"><div id="progress-fill"></div></div>
+  </main>
+  <noscript>이 발표자료는 JavaScript를 켜야 표시됩니다. 원본 분석 보고서는 assets/sources/analysis.md에서 확인할 수 있습니다.</noscript>
+</body>
+</html>
