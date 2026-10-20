@@ -1,0 +1,11 @@
+{
+  "edition": "final-visual-slides",
+  "slides": 11,
+  "core_sha256": {
+    "index.html": "d6aa083ef5d15e59259034e19a2641f36db25d29a6fd426de26449a43dd6951f",
+    "styles.css": "9d222ffc055f908cbf6f2b235ec103cda17b80e41ac9438b175a76bdad8d44b6",
+    "script.js": "f49709ab8bfad4ea0a36fb0bd671c42db9c0dad2bc116a8fc2c42ed3de4dadb4",
+    "assets/deck-data.js": "be66f164252c1ad0a869340c6f693603453a7c1b27cde3e99f59357d272f3bee",
+    "assets/slides-content.js": "1afc0dff7042d1fdcdd1c424d9a2cea77b2ae1f85909b2cbab5fb5ca2dd26e23"
+  }
+}
