@@ -55,7 +55,10 @@
     if(updateHash) history.replaceState(null,'',`#slide-${String(current+1).padStart(2,'0')}`);
   }
   function resize() {
-    const scale = Math.min(window.innerWidth/1600,(window.innerHeight-66)/900);
+    // Mobile innerWidth can include overflow from the unscaled stage and create
+    // resize feedback. clientWidth/clientHeight describe the actual layout viewport.
+    const viewport=document.documentElement;
+    const scale = Math.max(.01,Math.min(viewport.clientWidth/1600,(viewport.clientHeight-66)/900));
     const wrap = document.getElementById('stage-wrap');
     wrap.style.width = `${1600*scale}px`; wrap.style.height = `${900*scale}px`;
     document.getElementById('stage').style.transform = `scale(${scale})`;
